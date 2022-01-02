@@ -71,7 +71,7 @@ const Navbar = () => {
                 </Left>
 
                 <Center>
-                    <Logo>Treats.</Logo>
+                    <Logo>TREATS.</Logo>
                 </Center>
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
