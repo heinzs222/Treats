@@ -39,3 +39,37 @@ export const categories = [
         title: "TALK TO A VET",
     },
 ];
+export const popularProducts = [
+    {
+        id: 1,
+        img: "https://www.scotsman.com/jpim-static/image/2021/04/20/14/shutterstock_254080672.jpg?width=640&enable=upscale",
+    },
+    {
+        id: 2,
+        img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/happy-and-cheerful-dog-playing-fetch-with-toy-bone-royalty-free-image-1590068781.jpg?crop=0.668xw:1.00xh;0,0&resize=640:*",
+    },
+    {
+        id: 3,
+        img: "https://www.campbellrivervet.com/wp-content/uploads/sites/60/2019/01/vet-dog.jpg",
+    },
+    {
+        id: 4,
+        img: "https://www.campbellrivervet.com/wp-content/uploads/sites/60/2019/01/vet-dog.jpg",
+    },
+    {
+        id: 5,
+        img: "https://www.campbellrivervet.com/wp-content/uploads/sites/60/2019/01/vet-dog.jpg",
+    },
+    {
+        id: 6,
+        img: "https://www.campbellrivervet.com/wp-content/uploads/sites/60/2019/01/vet-dog.jpg",
+    },
+    {
+        id: 7,
+        img: "https://www.campbellrivervet.com/wp-content/uploads/sites/60/2019/01/vet-dog.jpg",
+    },
+    {
+        id: 8,
+        img: "https://www.campbellrivervet.com/wp-content/uploads/sites/60/2019/01/vet-dog.jpg",
+    },
+];
