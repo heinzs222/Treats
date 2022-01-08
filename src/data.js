@@ -31,7 +31,7 @@ export const categories = [
     {
         id: 2,
         img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/happy-and-cheerful-dog-playing-fetch-with-toy-bone-royalty-free-image-1590068781.jpg?crop=0.668xw:1.00xh;0,0&resize=640:*",
-        title: "TOYS AND GADGETS",
+        title: "TOYS AND ACCESSORIES",
     },
     {
         id: 3,
