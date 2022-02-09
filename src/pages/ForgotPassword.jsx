@@ -8,20 +8,20 @@ const Container = styled.div`
             rgba(255, 255, 255, 0.5),
             rgba(255, 255, 255, 0.5)
         ),
-        url("https://i.ytimg.com/vi/hp5u3IwrlYk/maxresdefault.jpg") center;
+        url("https://d.newsweek.com/en/full/1827083/dog-looking-confused.jpg")
+            center;
     display: flex;
     align-items: center;
     justify-content: start;
     background-size: cover;
-    padding: 20px;
+    text-align: center;
 `;
 
 const Wrapper = styled.div`
     width: 25%;
     padding: 20px;
     background-color: white;
-    ${mobile({ width: "75%" })};
-    justify-content: space-around;
+    ${mobile({ width: "75%" })}
 `;
 
 const Title = styled.h1`
@@ -32,7 +32,6 @@ const Title = styled.h1`
 const Form = styled.form`
     display: flex;
     flex-direction: column;
-    margin: 20px;
 `;
 
 const Input = styled.input`
@@ -59,17 +58,16 @@ const Link = styled.a`
     cursor: pointer;
 `;
 
-const Login = () => {
+const ForgotPassword = () => {
     return (
         <Container>
             <Wrapper>
-                <Title>SIGN IN</Title>
+                <Title>FORGOT YOUR PASSWORD?</Title>
                 <Form>
-                    <Input placeholder="username" />
-                    <Input placeholder="password" />
-
-                    <Button>LOGIN</Button>
-                    <Link>FORGT YOUR PASSWORD?</Link>
+                    <Input placeholder="USERNAME" />
+                    <h4>OR</h4>
+                    <Input placeholder=" EMAIL" />
+                    <Button>SEND</Button>
                     <Link>CREATE A NEW ACCOUNT</Link>
                 </Form>
             </Wrapper>
@@ -77,4 +75,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default ForgotPassword;

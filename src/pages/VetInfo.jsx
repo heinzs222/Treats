@@ -3,8 +3,9 @@ import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
-import { Add, Remove } from "@material-ui/icons";
+
 import { mobile } from "../responsive";
+import { CallOutlined } from "@material-ui/icons";
 
 const Container = styled.div``;
 
@@ -98,8 +99,10 @@ const Ammount = styled.span`
 `;
 
 const Button = styled.button`
+    font-size: 20px;
     padding: 15px;
-    border: 2px solid teal;
+    margin: 24px;
+    border: none;
     background-color: white;
     cursor: pointer;
     font-weight: 500;
@@ -109,37 +112,33 @@ const Button = styled.button`
     }
 `;
 
-const Product = () => {
+const Adress = styled.h1`
+    padding: 15px;
+`;
+const PhoneNumber = styled.h1`
+    padding: 15px;
+`;
+
+const VetInfo = () => {
     return (
         <Container>
             <Navbar />
             <Announcement />
             <Wrapper>
                 <ImageContainer>
-                    <Image src="https://m.media-amazon.com/images/I/71xCoqZkdkL._SL1500_.jpg" />
+                    <Image src="https://weu-az-web-cdnep.azureedge.net/mediacontainer/medialibraries/adamsvets/images/gallery/gallery1.jpg?ext=.jpg" />
                 </ImageContainer>
                 <InfoContainer>
-                    <Title>Puppy food</Title>
-                    <Bythis href="#">By Hatem</Bythis>
+                    <Title>Doc Name </Title>
                     <Desc>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Sequi dolorem excepturi est. Officia tempore nobis
-                        eveniet eius necessitatibus voluptatum fugiat quam animi
-                        amet, natus enim at beatae expedita atque maxime, sequi
-                        deleniti numquam et. Ullam minima, eius aliquid
-                        provident facilis esse mollitia a, sunt tenetur
-                        inventore omnis distinctio perferendis tempore.
+                        <Adress>15 rue cap bon bizerte</Adress>
+                        <PhoneNumber>+216 24 530 662</PhoneNumber>
                     </Desc>
-                    <Price>$ 20</Price>
-
-                    <AddContainer>
-                        <AmmountContainer>
-                            <Remove />
-                            <Ammount>1</Ammount>
-                            <Add />
-                        </AmmountContainer>
-                        <Button>ADD TO CART</Button>
-                    </AddContainer>
+                    <Price>$ 30</Price>
+                    <Button>
+                        <CallOutlined />
+                        Call
+                    </Button>
                 </InfoContainer>
             </Wrapper>
             <Newsletter />
@@ -148,4 +147,4 @@ const Product = () => {
     );
 };
 
-export default Product;
+export default VetInfo;

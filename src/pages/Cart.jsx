@@ -160,6 +160,7 @@ const Cart = () => {
                         <TopText>Shopping bag(2)</TopText>
                         <TopText>Your wishlist(0)</TopText>
                     </TopTexts>
+
                     <TopButton type="filled">CHECKOUT NOW</TopButton>
                 </Top>
                 <Bottom>
@@ -240,6 +241,7 @@ const Cart = () => {
                             <SummaryItemText>Total</SummaryItemText>
                             <SummaryItemPrice>$ 80</SummaryItemPrice>
                         </SummaryItem>
+
                         <Button>CHECKOUT NOW</Button>
                     </Summary>
                 </Bottom>
